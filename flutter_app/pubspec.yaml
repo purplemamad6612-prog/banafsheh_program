@@ -1,0 +1,28 @@
+name: banafsheh_client
+description: Persian RTL sales, inventory, and CRM client for Benafsheh UPVC wholesale.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.27.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  pocketbase: ^0.19.0
+  hive_flutter: ^1.1.0
+  shamsi_date: ^1.1.0
+  fl_chart: ^0.71.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
